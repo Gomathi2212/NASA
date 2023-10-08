@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Style for ocean links */
+.ocean-link {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style for ocean descriptions */
+.ocean-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}

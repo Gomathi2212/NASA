@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean List</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Add custom styling here */
+        .ocean-container {
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        
+        /* Background images for each ocean */
+        #indian-ocean {
+            background-image: url('indian.jpg');
+        }
+        
+        #pacific-ocean {
+            background-image: url('paci.jpg');
+        }
+        
+        #southern-ocean {
+            background-image: url('south.jpg');
+        }
+        
+        #atlantic-ocean {
+            background-image: url('atlantic.jpg');
+        }
+        
+        #arctic-ocean {
+            background-image: url('art.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ocean-container" id="indian-ocean" onclick="location.href='demo.html';">
+                    <h2>Indian Ocean</h2>
+                    <p>The Indian Ocean is the third-largest ocean in the world, covering approximately 20% of the Earth's surface.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ocean-container" id="pacific-ocean" onclick="location.href='demo1.html';">
+                    <h2>Pacific Ocean</h2>
+                    <p>The Pacific Ocean is the largest and deepest ocean on Earth, covering more than 30% of the planet's surface.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ocean-container" id="southern-ocean" onclick="location.href='demo4.html';">
+                    <h2>Southern Ocean</h2>
+                    <p>The Southern Ocean surrounds Antarctica and is the smallest and youngest of the world's oceans.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ocean-container" id="atlantic-ocean" onclick="location.href='demo2.html';">
+                    <h2>Atlantic Ocean</h2>
+                    <p>The Atlantic Ocean is the second-largest ocean in the world, separating the Americas from Europe and Africa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="ocean-container" id="arctic-ocean" onclick="location.href='demo3.html';">
+                    <h2>Arctic Ocean</h2>
+                    <p>The Arctic Ocean is the smallest and shallowest of the world's oceans, located in the Arctic region.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
